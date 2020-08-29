@@ -1,14 +1,10 @@
 <!doctype html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
-  
-<!-- Mirrored from www.odoo.com/documentation/13.0/webservices/iap.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Aug 2020 10:07:54 GMT -->
 <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:500,600" rel="stylesheet">
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:500,600" rel="stylesheet">
     <title>In-App Purchase &#8212; odoo 13.0 documentation</title>
     <link rel="stylesheet" href="../_static/style.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -22,47 +18,35 @@
     <script type="text/javascript" src="../_static/doc.js"></script>
     <script type="text/javascript" src="../_static/jquery.noconflict.js"></script>
     <script type="text/javascript" src="../_static/patchqueue.js"></script><link rel="canonical" href="iap.html" />
-  
     <link rel="index" title="Index" href="https://www.odoo.com/documentation/13.0/genindex.html" />
     <link rel="search" title="Search" href="https://www.odoo.com/documentation/13.0/search.html" />
     <link rel="next" title="Database Upgrade" href="upgrade.html" />
     <link rel="prev" title="External API" href="odoo.html" /> 
-  </head><body>
+  </head>
+  <body>
     <header>
       <?php
        include('header.php');
       ?>
-  </header><div id="wrap" class="">
-    
-    
-    
+  </header>
+  <div id="wrap" class="">
     <figure class="card top has_banner">
       <span class="card-img" style="background-image: url('../_static/banners/iap.jpg');"></span>
       <div class="container text-center">
         <h1> In-App Purchase </h1>
       </div>
     </figure>
-    
-    
-    
-      <main class="container ">
-        
+       <main class="container ">    
         <div class="o_content row">
-          
           <aside>
             <div class="navbar-aside text-center">
               <ul class="text-left nav list-group"><li class="list-group-item"><a href="#overview" class="reference ripple internal">Overview</a></li><li class="list-group-item"><a href="#building-your-service" class="reference ripple internal">Building your service</a><ul ><li class="list-group-item"><a href="#register-the-service-on-odoo" class="reference ripple internal">Register the service on Odoo</a></li><li class="list-group-item"><a href="#packs" class="reference ripple internal">Packs</a></li><li class="list-group-item"><a href="#odoo-app" class="reference ripple internal">Odoo App</a></li><li class="list-group-item"><a href="#service" class="reference ripple internal">Service</a></li></ul></li><li class="list-group-item"><a href="#json-rpc2-transaction-api" class="reference ripple internal">JSON-RPC2 Transaction API</a><ul ><li class="list-group-item"><a href="#authorize" class="reference ripple internal">Authorize</a></li><li class="list-group-item"><a href="#capture" class="reference ripple internal">Capture</a></li><li class="list-group-item"><a href="#cancel" class="reference ripple internal">Cancel</a></li><li class="list-group-item"><a href="#types" class="reference ripple internal">Types</a></li><li class="list-group-item"><a href="#test-the-api" class="reference ripple internal">Test the API</a></li></ul></li><li class="list-group-item"><a href="#odoo-helpers" class="reference ripple internal">Odoo Helpers</a><ul ><li class="list-group-item"><a href="#charging" class="reference ripple internal">Charging</a></li><li class="list-group-item"><a href="#id1" class="reference ripple internal">Authorize</a></li><li class="list-group-item"><a href="#id2" class="reference ripple internal">Cancel</a></li><li class="list-group-item"><a href="#id3" class="reference ripple internal">Capture</a></li></ul></li></ul>
-              
               <p class="gith-container"><a href="https://github.com/odoo/odoo/edit/13.0/doc/webservices/iap.rst" class="gith-link">
                   Edit on GitHub
               </a></p>
-              
             </div>
           </aside>
-          
           <article class="doc-body ">
-            
-            
   <section id="in-app-purchase"><p >In-App Purchase (IAP) allows providers of ongoing services through Odoo apps to
 be compensated for ongoing service use rather than — and possibly instead of
 — a sole initial purchase.</p><p >In that context, Odoo acts mostly as a <em >broker</em> between a client and an Odoo
@@ -502,14 +486,11 @@ configuration key</li><li ><strong >transaction_token</strong> (<a href="https:/
 </span></pre></div>
 </div>
 </section>
-
           </article>
         </div>
-        
         <div id="mask"></div>
       </main>
   </div>
-
   <div class="floating_action_container">
     <a id="floating_action" class="ripple" href="#">
       <i class="mdi-action-explore"></i>
@@ -534,11 +515,8 @@ configuration key</li><li ><strong >transaction_token</strong> (<a href="https:/
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','../../../../www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-52174891-1', 'auto');
     ga('send','pageview');
     </script>
   </body>
-
-<!-- Mirrored from www.odoo.com/documentation/13.0/webservices/iap.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Aug 2020 10:08:05 GMT -->
 </html>

@@ -1,8 +1,5 @@
 <!doctype html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
-  
-<!-- Mirrored from www.odoo.com/documentation/13.0/webservices/upgrade.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Aug 2020 10:08:07 GMT -->
 <head>
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,36 +30,23 @@
        include('header.php');
       ?>
   </header><div id="wrap" class="has_code_col">
-    
-    
-    
     <figure class="card top has_banner">
       <span class="card-img" style="background-image: url('../_static/banners/upgrade_api.jpg');"></span>
       <div class="container text-center">
         <h1> Database Upgrade </h1>
       </div>
     </figure>
-    
-    
-    
       <main class="container has_code_col">
-        
         <div class="o_content row">
-          
           <aside>
             <div class="navbar-aside text-center">
               <ul class="text-left nav list-group"><li class="list-group-item"><a href="#introduction" class="reference ripple internal">Introduction</a></li><li class="list-group-item"><a href="#the-methods" class="reference ripple internal">The methods</a><ul ><li class="list-group-item"><a href="#creating-a-database-upgrade-request" class="reference ripple internal">Creating a database upgrade request</a><ul ><li class="list-group-item"><a href="#the-create-method" class="reference ripple internal">The <code >create</code> method</a><ul ><li class="list-group-item"><a href="#failures" class="reference ripple internal"><code >failures</code></a></li><li class="list-group-item"><a href="#request" class="reference ripple internal"><code >request</code></a></li><li class="list-group-item"><a href="#sample-script" class="reference ripple internal">Sample script</a></li></ul></li></ul></li><li class="list-group-item"><a href="#uploading-your-database-dump" class="reference ripple internal">Uploading your database dump</a><ul ><li class="list-group-item"><a href="#the-upload-method" class="reference ripple internal">The <code >upload</code> method</a></li><li class="list-group-item"><a href="#the-request-sftp-access-method" class="reference ripple internal">The <code >request_sftp_access</code> method</a><ul ><li class="list-group-item"><a href="#id1" class="reference ripple internal"><code >failures</code></a></li><li class="list-group-item"><a href="#id2" class="reference ripple internal"><code >request</code></a><ul ><li class="list-group-item"><a href="#using-the-sftp-client" class="reference ripple internal">Using the ‘sftp’ client</a></li></ul></li></ul></li></ul></li><li class="list-group-item"><a href="#asking-to-process-your-request" class="reference ripple internal">Asking to process your request</a><ul ><li class="list-group-item"><a href="#the-process-method" class="reference ripple internal">The <code >process</code> method</a></li></ul></li><li class="list-group-item"><a href="#asking-to-skip-the-tests" class="reference ripple internal">Asking to skip the tests</a><ul ><li class="list-group-item"><a href="#the-skip-test-method" class="reference ripple internal">The <code >skip_test</code> method</a></li></ul></li><li class="list-group-item"><a href="#obtaining-your-request-status" class="reference ripple internal">Obtaining your request status</a><ul ><li class="list-group-item"><a href="#the-status-method" class="reference ripple internal">The <code >status</code> method</a></li><li class="list-group-item"><a href="#sample-output" class="reference ripple internal">Sample output</a></li></ul></li><li class="list-group-item"><a href="#downloading-your-database-dump" class="reference ripple internal">Downloading your database dump</a></li></ul></li></ul>
-              
               <p class="gith-container"><a href="https://github.com/odoo/odoo/edit/13.0/doc/webservices/upgrade.rst" class="gith-link">
                   Edit on GitHub
               </a></p>
-              
             </div>
           </aside>
-          
-          <article class="doc-body ">
-            
-            
+          <article class="doc-body ">  
   <section id="database-upgrade"><i id="reference-upgrade-api"></i></section><section id="introduction"><h2 >Introduction</h2><p >This document describes the API used to upgrade an Odoo database to a
 higher version.</p><p >It allows a database to be upgraded without ressorting to the html form at
 <a href="https://upgrade.odoo.com/" class="external reference">https://upgrade.odoo.com</a>
@@ -362,6 +346,4 @@ Downloading /upgraded_openchs.70.cdump to /path/to/upgraded_openchs.70.cdump
     ga('send','pageview');
     </script>
   </body>
-
-<!-- Mirrored from www.odoo.com/documentation/13.0/webservices/upgrade.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Aug 2020 10:08:09 GMT -->
 </html>

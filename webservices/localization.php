@@ -1,14 +1,10 @@
 <!doctype html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
-  
-<!-- Mirrored from www.odoo.com/documentation/13.0/webservices/localization.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Aug 2020 10:08:09 GMT -->
 <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:500,600" rel="stylesheet">
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:500,600" rel="stylesheet">
     <title>Creating a Localization &#8212; odoo 13.0 documentation</title>
     <link rel="stylesheet" href="../_static/style.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -22,7 +18,6 @@
     <script type="text/javascript" src="../_static/doc.js"></script>
     <script type="text/javascript" src="../_static/jquery.noconflict.js"></script>
     <script type="text/javascript" src="../_static/patchqueue.js"></script><link rel="canonical" href="localization.html" />
-  
     <link rel="index" title="Index" href="https://www.odoo.com/documentation/13.0/genindex.html" />
     <link rel="search" title="Search" href="https://www.odoo.com/documentation/13.0/search.html" />
     <link rel="next" title="Setting Up" href="https://www.odoo.com/documentation/13.0/setup.html" />
@@ -33,36 +28,23 @@
        include('header.php');
     ?>
   </header><div id="wrap" class="">
-    
-    
-    
-    <figure class="card top has_banner">
+     <figure class="card top has_banner">
       <span class="card-img" style="background-image: url('../_static/banners/localization.jpg');"></span>
       <div class="container text-center">
         <h1> Creating a Localization </h1>
       </div>
     </figure>
-    
-    
-    
       <main class="container ">
-        
         <div class="o_content row">
-          
           <aside>
             <div class="navbar-aside text-center">
               <ul class="text-left nav list-group"><li class="list-group-item"><a href="#building-a-localization-module" class="reference ripple internal">Building a localization module</a></li><li class="list-group-item"><a href="#configuring-my-own-chart-of-accounts" class="reference ripple internal">Configuring my own Chart of Accounts?</a><ul ><li class="list-group-item"><a href="#adding-a-new-account-to-my-chart-of-accounts" class="reference ripple internal">Adding a new account to my Chart of Accounts</a></li><li class="list-group-item"><a href="#adding-a-new-tax-to-my-chart-of-accounts" class="reference ripple internal">Adding a new tax to my Chart of Accounts</a></li><li class="list-group-item"><a href="#adding-a-new-fiscal-position-to-my-chart-of-accounts" class="reference ripple internal">Adding a new fiscal position to my Chart of Accounts</a></li><li class="list-group-item"><a href="#adding-the-properties-to-my-chart-of-accounts" class="reference ripple internal">Adding the properties to my Chart of Accounts</a></li></ul></li><li class="list-group-item"><a href="#how-to-create-a-new-bank-operation-model" class="reference ripple internal">How to create a new bank operation model?</a></li><li class="list-group-item"><a href="#how-to-create-a-new-dynamic-report" class="reference ripple internal">How to create a new dynamic report?</a></li></ul>
-              
               <p class="gith-container"><a href="https://github.com/odoo/odoo/edit/13.0/doc/webservices/localization.rst" class="gith-link">
                   Edit on GitHub
               </a></p>
-              
             </div>
           </aside>
-          
-          <article class="doc-body ">
-            
-            
+          <article class="doc-body ">            
   <section id="creating-a-localization"><div role="alert" class="alert alert-warning"><h3 class="alert-title">Warning</h3><p >This tutorial requires knowledges about how to build a module in Odoo (see
 <a href="https://www.odoo.com/documentation/13.0/howtos/backend.html" class="alert-link reference internal"><span class="doc">Building a Module</span></a>).</p></div></section><section id="building-a-localization-module"><h2 >Building a localization module</h2><p >When installing the <code >accounting</code> module, the localization module corresponding to the country code of the company is installed automatically.
 In case of no country code set or no localization module found, the <code >l10n_generic_coa</code> (US) localization module is installed by default.</p><p >For example, <code >l10n_be</code> will be installed if the company has <code >Belgium</code> as country.</p><p >This behavior is allowed by the presence of a <em >.xml</em> file containing the following code:</p><div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;function</span> <span class="na">model=</span><span class="s">&quot;account.chart.template&quot;</span> <span class="na">name=</span><span class="s">&quot;try_loading_for_current_company&quot;</span><span class="nt">&gt;</span>
@@ -376,7 +358,6 @@ one to bring all the stuff for your localization module and one more, <code >acc
         <div id="mask"></div>
       </main>
   </div>
-
   <div class="floating_action_container">
     <a id="floating_action" class="ripple" href="#">
       <i class="mdi-action-explore"></i>
@@ -401,11 +382,8 @@ one to bring all the stuff for your localization module and one more, <code >acc
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','../../../../www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-52174891-1', 'auto');
     ga('send','pageview');
     </script>
   </body>
-
-<!-- Mirrored from www.odoo.com/documentation/13.0/webservices/localization.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Aug 2020 10:08:10 GMT -->
 </html>

@@ -20,6 +20,7 @@
     <script type="text/javascript" src="../_static/patchqueue.js">
     </script><link rel="canonical" href="Zabbix.html" />
 </head>
+<body>
   <header> 
     <?php
       include('header.php');
@@ -523,4 +524,5 @@
       include('footer.php');
     ?>
   </footer>
+  </body>
 </html>

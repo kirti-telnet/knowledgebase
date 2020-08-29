@@ -1,4 +1,5 @@
-<div class="o_main_header o_has_sub_nav o_inverted has_code_col">
+<body>
+<header class="o_main_header o_has_sub_nav o_inverted has_code_col">
     <div class="o_main_header_main">
       <a class="pull-left o_logo" href="https://www.odoo.com/"></a>
       <a href="#" class="o_mobile_menu_toggle visible-xs-block pull-right">

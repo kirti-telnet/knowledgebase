@@ -304,5 +304,4 @@ done
     ga('send','pageview');
     </script>
   </body>
-<!-- Mirrored from www.odoo.com/documentation/13.0/webservices/odoo.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Aug 2020 10:07:38 GMT -->
 </html>
